@@ -1,6 +1,6 @@
 {
-  "version": "5.2.0",
-  "name": "simplebar",
+  "version": "5.2.0-1",
+  "name": "@lycoris-nubila/simplebar",
   "title": "SimpleBar.js",
   "description": "Scrollbars, simpler.",
   "files": [
@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
-    "build": "rollup -c && cp src/simplebar.css dist/simplebar.css && minify dist/simplebar.css > dist/simplebar.min.css && webpack --mode=production",
+    "build": "rollup -c && copy src\\simplebar.css dist\\simplebar.css && minify dist/simplebar.css > dist/simplebar.min.css && webpack --mode=production",
     "dev": "rollup -c -w",
     "test": "yarn test:unit && yarn test:e2e",
     "test:unit": "jest -c jest-unit.config.js",

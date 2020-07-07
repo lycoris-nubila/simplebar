@@ -7,8 +7,8 @@ import {
   ViewEncapsulation
 } from '@angular/core';
 
-import SimpleBar from 'simplebar/dist/simplebar-core.esm';
-import { Options } from 'simplebar';
+import SimpleBar from '@lycoris-nubila/simplebar/dist/simplebar-core.esm';
+import { Options } from '@lycoris-nubila/simplebar';
 
 @Component({
   selector: 'ngx-simplebar',

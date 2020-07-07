@@ -287,7 +287,7 @@ export default class SimpleBar {
     ['touchstart', 'touchend', 'touchmove'].forEach(e => {
       this.el.addEventListener(e, this.onPointerEvent, {
         capture: true,
-        passive: true
+        passive: false
       });
     });
 
